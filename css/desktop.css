@@ -1,0 +1,554 @@
+@charset "utf-8";
+/* CSS Document coded by Webwizard of EDGE PROJECT for Desktop screens as well as any other device with larger screen resolutions
+
+* Phone Numbers: 08132690608, 08108532394;
+* E-mail: iamwebwiz@gmail.com;
+* Fb Account: http://facebook.com/oladejo.ezekielabiodun;
+* Company Name: Edge Project;
+* Company Website: http://www.edgeproject.net;
+
+*/
+
+body {
+	background: white;
+	margin: 0px;
+	padding: 0px 60px 0px 60px;
+	line-height: 2.5em;
+	color: black;
+	font-family: cursive, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+div.menubar1 {
+	padding: 25px 10px;
+	border: ;
+	margin-bottom: 4px !important;
+}
+
+div.menubar1 > a {
+	font-size: 17px;
+	background: #333;
+	padding: 12px 20px;
+	color: #999;
+	margin-right: 10px;
+	text-decoration: none;
+	border-radius: 7px;
+	font-family: Arial, Helvetica, sans-serif;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+div.menubar1 .img {
+	float: left;
+}
+
+div.menubar1 .img img {
+	width: 70px;
+	height: 70px;
+}
+
+div.menubar1 > a:hover {
+	background: #6f8a00;
+	color: #fff;
+}
+
+.container > div.detail {
+	margin-top: 8px;
+	margin-bottom: 15px;
+	border-style: none solid solid solid;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 0px 0px 12px 12px;
+	padding: 7px;
+}
+
+div#slider {
+	max-width: 100%;
+	height: auto;
+}
+
+.container > div a {
+	text-decoration: none;
+	font-size: 13pt;
+	background: #333;
+	padding: 2px;
+	color: #999;
+	border-radius: 7px;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+.container > div a:hover {
+	background: #6f8a00;
+	color: #fff;
+}
+
+.container {
+	color: brown;
+	font-family: Consolas, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	padding: 7px 6px 6px 25px;
+	font-style: normal;
+	line-height: 1.4em;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	border: 1px dotted gray;
+	border-radius: 0px 0px 4px 4px;
+	margin-bottom: 8px;
+	height: auto;
+}
+
+.container > a {
+	text-decoration: none;
+	font-style: normal;
+	font-family: "Courier New", cursive, sans-serif;
+	color: lime;
+	font-weight: normal;
+	font-size: 13pt;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+.container > a:hover {
+	padding: 6px 4px;
+	border-radius: 3px;
+	background-color: green;
+	color: white;
+}
+			
+.container img {
+	margin: 10px;
+	border-radius: 10px;
+	vertical-align: top;
+	border: 1px solid gray;
+	max-width: 90%;
+	max-height: auto;
+}
+
+.header {
+	background: #6f8a00;
+	color: #fff;
+	padding: 6px 5px;
+	border: ;
+	border-radius: 9px 9px 0px 0px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 18pt;
+	font-family: Rockwell, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+			
+.Logo {
+	background: #6f8a00;
+}
+
+blockquote {
+	background-color: #001100;
+	color: #FFC;
+	padding: 7px 6px !important;
+	margin: auto;
+	font-family: "Comic Sans MS", cursive;
+	font-style: italic;
+	font-weight: normal;
+	border-radius: 4px;
+	font-size: 13pt;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: normal;
+	text-align: center;
+	word-spacing: normal;
+	white-space: normal;
+}
+
+div#about {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.8em;
+	font-variant: normal;
+	text-transform: none;
+	color: brown;
+	text-decoration: none;
+	text-align: center;
+	padding: 9px;
+	margin-top: 7px;
+	border-radius: 4px;
+}
+
+div#footer {
+	background-color: #797979;
+	color: #FFFFCC;
+	padding: 10px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	opacity: 1;
+	margin: 6px 0px 0px 0px;
+	border-top: 6px solid #6F8A00;
+	border-radius: 5px 5px 0px 0px;
+	text-align: center;
+	font-size: 13pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+
+div#footer > a {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	color: #EAED67;
+	padding: 6px !important;
+	margin-right: 2px;
+}
+
+div#footer > a > img {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+div#footer > a:hover {
+	color: #F0D362;
+	text-decoration: none;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: capitalize;
+	letter-spacing: normal;
+	text-align: center;
+	word-spacing: normal;
+	white-space: normal;
+}
+
+header, footer, nav, article, section, aside {
+	display: block;
+}
+
+header {
+	text-align: center;
+}
+
+marquee {
+	border-radius: 5px;
+	color: brown;
+	padding: 8px 3px;
+	font-family: Rockwell, "Courier New", cursive, "Comic Sans MS", sans-serif;
+	font-style: italic;
+	margin-top: 6px;
+}
+
+.wrapper {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14pt;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: capitalize;
+	color: #FFC;
+	font-style: normal;
+	line-height: 1.5em;
+	text-decoration: none;
+	border: 1px solid #C36;
+	padding: 2px;
+	border-radius: 5px;
+	width: 200px;
+	height: 220px;
+	float: left;
+	box-shadow: 0px 0px 10px green;
+	-webkit-box-shadow: 0px 0px 10px green;
+	-o-box-shadow: 0px 0px 10px green;
+	-ms-box-shadow: 0px 0px 10px green;
+	-moz-box-shadow: 0px 0px 10px green;
+	overflow: hidden;
+	margin-left: 20px;
+	border: 2px solid white;
+	margin-bottom: 50px;
+}
+
+.update {
+	background-color: #036;
+	padding: 6px 8px 6px 30px;
+	opacity: 1;
+	border-radius: 5px;
+}
+
+.news {
+	background-color: #FFFFFF;
+	padding: 6px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-variant: normal;
+	text-decoration: none;
+	font-style: normal;
+	margin: auto;
+	color: #000080;
+	border-radius: 3px;
+	height: auto;
+}
+
+.wrapper > .news img {
+	float: left;
+	width: 60px;
+	height: 70px;
+	border-radius: 6px;
+	opacity: 1;
+}
+
+.container > pre {
+	margin-top: 3px;
+	margin-left: 35px;
+	font-size: 13pt;
+	margin-bottom: 6px;
+	font-family: "Courier New", Rockwell, cursive;
+	line-height: 1.5em;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	color: #FFC;
+	word-spacing: normal;
+	letter-spacing: normal;
+	white-space: normal;
+}
+
+.staff {
+	background-color: ;
+	color: #FFFFFF;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 3px;
+	padding-left: 3px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-width: 1px;
+	border-style: outset;
+	border-color: gray;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-o-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-moz-border-radius: 7px;
+}
+
+.staff > table tr td img {
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	margin-left: 2px;
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.staff > table tr td {
+	padding: 3px 6px 3px 5px;
+	border-radius: 7px;
+}
+
+.staff > table tr {
+	border-radius: 7px;
+}
+
+.staff > table {
+	width: 100%;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	word-spacing: normal;
+	font-size: 13pt;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 7px;
+}
+
+.staff a {
+	text-decoration: none;
+	font-style: normal;
+	font-family: "Courier New", cursive, sans-serif;
+	color: lime;
+	font-weight: normal;
+	font-size: 13pt;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+.staff a:hover {
+	padding: 6px 4px;
+	border-radius: 3px;
+	background-color: green;
+	color: white;
+}
+
+.listing {
+	color: #FFFFFF;
+	font-family: "Courier New", Courier, monospace;
+	font-style: normal;
+}
+
+ul {
+	list-style-type: square;
+	font-family: Consolas, Calibri, cursive, "Comic Sans MS";
+	line-height: 2.5em;
+	margin-top: 2px;
+	margin-bottom: 7px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+ul li {
+	font-family: Consolas, 'Comic Sans MS', cursive, Calibri;
+}
+
+em {
+	font-family: Consolas, cursive, "Comic Sans MS", Calibri, Courier, "Courier New";
+}
+
+.wrapper img {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 500ms;
+	-webkit-transition: transform 500ms;
+	-o-transition: transform 500ms;
+	-ms-transition: transform 500ms;
+	-moz-transition: transform 500ms;
+	/* moderate transformation/rotation of the image in the wrapper class */
+}
+
+.content {
+	background-color: black;
+	opacity: 0.4;
+	width: 200px;
+	height: 440px;
+	transition: transform 500ms;
+	-o-transition: transform 500ms;
+	-webkit-transition: transform 500ms;
+	-ms-transition: transform 500ms;
+	-moz-transition: transform 500ms;
+	/* Sets the rotation of the class to be moderately fast, if set higher, say 3000ms, the rotation/transformation will be slow */
+}
+
+.wrapper:hover .content {
+	transform: translateY(-285px);
+	-webkit-transform: translateY(-285px);
+	-o-transform: translateY(-285px);
+	-ms-transform: translateY(-285px);
+	-moz-transform: translateY(-285px);
+	/* Functions as the translation of the content class which will move up on mouse over the image */
+}
+
+.text_area {
+	color: white;
+	width: 100%;
+	height: 40px;
+	background: green;
+	text-align: center;
+	padding-top: 10px;
+	/* Space between the border of the class and the text itself */
+	margin-top: 150px;
+	position: absolute;
+	font-size: 16px;
+	/* Font size cool! */
+	font-family: 'Bitstream Vera Sans Mono', Consolas, cursive, Arial;
+	font-weight: normal;
+	cursor: pointer;
+	display: none;
+}
+
+.wrapper:hover .text_area {
+	display: block;
+}
+
+.wrapper:hover img {
+	transform: scale(1.7, 1.7) rotate(360deg);
+	-webkit-transform: scale(1.7, 1.7) rotate(360deg);
+	-o-transform: scale(1.7, 1.7) rotate(360deg);
+	-ms-transform: scale(1.7, 1.7) rotate(360deg);
+	-moz-transform: scale(1.7, 1.7) rotate(360deg);
+	/* Increases the zoom level of the image on hover and the transformation degree (clockwise transformation/rotation) */
+}
+
+input[type=email] {
+	padding: 6px;
+	font-family: monospace;
+	font-size: 12pt;
+	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #6f8a00;
+	background-color: white;
+	color: #6f8a00;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+textarea {
+	padding: 6px;
+	font-family: monospace;
+	font-size: 12pt;
+	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #6f8a00;
+	background-color: white;
+	color: #6f8a00;
+	opacity: 1;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+
+input[type=submit] {
+	padding: 8px;
+	font-family: sans-serif;
+	border-radius: 4px;
+	border: 1px solid #6f8a00;
+	background-color: #333;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	color: #999;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+input[type=submit]:hover {
+	background: #6f8a00;
+	color: white;
+}
+
+.spacing {
+	margin-bottom: 550px;
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-top: 15px;
+}

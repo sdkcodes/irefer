@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:white;
+	color:darkgreen;
+}
+
+input[type=text] {
+	color: darkgreen; 
+	background-color: white; 
+	padding: 4px; 
+	border: 2px solid darkgreen;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:12pt;
+	border-radius:7px;
+	font-variant:none;
+}
+
+input[type=submit] {
+	background: darkgreen; 
+	padding: 7px 8px; 
+	color: white; 
+	border: 1px outset darkgreen;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12pt;
+	border-radius:7px;
+	font-variant:none;
+}
+
+input[type=email] {
+	color: darkgreen; 
+	background-color: white; 
+	padding: 4px; 
+	border: 2px solid darkgreen;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:12pt;
+	border-radius:7px;
+	font-variant:none;
+}
+
+input[type=password] {
+	color: darkgreen; 
+	background-color: white; 
+	padding: 4px; 
+	border: 2px solid darkgreen;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:12pt;
+	border-radius:7px;
+	font-variant:none;
+}
+
+form {
+	background:white;
+	color:darkgreen;
+	border-bottom: 2px solid green; 
+	margin-bottom: 3.5px; 
+	padding: 4px;
+
+}
+
+
+a {
+	text-decoration: none;
+	font-size: 16pt;
+	color: white;
+	font-family:arial;
+	text-transform: none;
+	font-weight: bold;
+	background-color: gray;
+	padding:4px;
+	
+	border-radius :7px;
+}
+
+/*label {
+	color:darkgreen;
+	font-size: 14pt;
+	font-family: "Lucida Console" , Monaco, monospace;
+	font-weight: bold;
+}
+*/

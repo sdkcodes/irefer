@@ -1,39 +1,69 @@
-<?php // index page 
-// author Elusoji Sodeeq
-//Company EdgeProject
-?>
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>EdgeProject Referral Program</title>
-	</head>
-	
-	<body>
-	<h3>Welcome to the EdgeProject referral Program</h3>
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/desktop.css " >
+<!--<link rel="stylesheet" href="css/handheld.css ">
+-->
 
-	<div>
-			<h2>Win up to 10,000 naira in the ongoing Edgeproject referral program.</h2>
+</head>
 
-	Edgeproject will be holding the second edition of its ICT training in November and is giving people an opportunity to earn free cash with as little effort as possible.
+<body>
+  <header>
+    <div class="menubar1">
+      <div class="img"><img src="images/projecticon.gif" alt="Edgeproject" /></div>
+      <a href="">IRefer</a>
+      <a href="http://blog.edgeproject.net">Blog</a>
+    </div>
+  </header>
 
-	To qualify for this reward, all you need to do is as listed below:
-	<br>
-	<b>goto www.edgeproject.net/refer
-	create an account
-	<br>Take note of your username, that will be your referral code.
-	<br>Convince your friends to register for the Edgeproject ICT training.
-	<br>Tell them your referral code (your username), this is what will be used to identify you.
-	<br>The one you refer then supply your username at the point of registration. 
-	<br>For every person you convince, you win 1,000 naira in cash.
-	</b>
-	There is a maximum limit of 10 persons you can refer.
-	<br>
-	So, what are you still waiting for? Grab this opportunity now and earn yourself some free money!!!
-	<br>
-	It does't get better than this
-</div>
-	<div><a href="register">Sign up</a> or <a href="login">Login</a>
-	</div>
-	
-	</body>
+  <div class="header">WELCOME TO THE EDGEPROJECT IREFER PROGRAM</div>
+  <div class="container">
+    This program gives you an opportunity to win loads of free cash
+    , up to (#5,000).<br/>
+    Note that this program is meant for only students of Obafemi Awolowo University
+
+    <div id="about">
+      <strong>How to Win Your Cash:</strong>
+      <ul>
+        <li>Goto <a href="http://www.edgeproject.net/irefer">www.edgeproject.net/irefer</a>
+          and create an account.
+        </li>
+        <li>Take note of your username, this will be your referral code
+        </li>
+        <li>Convince your friends to attend the EdgeProject ICT training
+        </li>
+        <li>Tell them your referral code, and tell them to provide it at the point of 
+          form purchase
+        </li>
+        <li>
+          For each person that purchases the form using your code, you win #500 cash
+        </li>
+        Note that your code can only be used 10 times.
+        <p>
+          Call 08137670746 or send us a message to contact[at]edgeproject.net for more info.
+        </p>
+      </ul>
+  </div>
+
+   <div>
+    <a href="register">Register</a> Or <a href="login">Login</a>
+   </div>
+  
+
+  <footer><div id="footer">
+     <a href="http://facebook.com/teamedgeproject" name="fbConnect">
+      <img src="images/fbIcon.gif" alt="fbConnect" width="40" height="40" /></a> 
+     <a href="http://twitter.com/teamedgeproject" name="twtConnect">
+      <img src="images/twtIcon.gif" alt="twtConnect" width="40" height="40" /></a>
+     <br />
+     &copy; 2015 EDGE PROJECT&trade;</div></footer>
+
+
+</body>
 </html>
+

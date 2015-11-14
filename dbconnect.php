@@ -3,7 +3,7 @@
 // author Elusoji Sodeeq
 //Company EdgeProject
 try{
-	$pdo = new PDO('mysql:host=localhost;dbname=refsystem', 'root', '');
+	$pdo = new PDO('mysql:host=localhost;dbname=irefer', 'root', '');
 	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	$pdo->exec('SET NAMES "utf8"');
 }
